@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/tauri-apps/tauri/dev/crates/tauri-config-schema/schema.json",
+  "productName": "Prapory",
+  "version": "1.0.0",
+  "identifier": "dev.prapory.editor",
+  "build": {
+    "beforeDevCommand": "bun run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "bun run build",
+    "frontendDist": "../dist"
+  },
+  "app": {
+    "security": {
+      "csp": null
+    },
+    "windows": [
+      {
+        "title": "Prapory",
+        "width": 1200,
+        "height": 800,
+        "minWidth": 900,
+        "minHeight": 600
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}
