@@ -38,11 +38,10 @@ This project is made in Ukraine. We stand for freedom and democracy.
 
 Застосунок не підписаний сертифікатом Apple Developer. macOS Gatekeeper може заблокувати його при першому запуску. Щоб відкрити:
 
-- **Варіант А**: Правий клік на застосунок > **Відкрити** > **Відкрити** у діалозі
-- **Варіант Б**: Виконати в терміналі:
-  ```bash
-  xattr -cr /Applications/Prapory.app
-  ```
+Виконайте в терміналі:
+```bash
+xattr -cr /Applications/Prapory.app
+```
 
 ### Технології
 
@@ -94,11 +93,10 @@ Ready-made installers for **macOS** (ARM / Intel), **Windows** and **Linux** are
 
 The app is not code-signed with an Apple Developer certificate. macOS Gatekeeper may block it on first launch. To open:
 
-- **Option A**: Right-click the app > **Open** > **Open** in the dialog
-- **Option B**: Run in terminal:
-  ```bash
-  xattr -cr /Applications/Prapory.app
-  ```
+Run in terminal:
+```bash
+xattr -cr /Applications/Prapory.app
+```
 
 ### Tech stack
 
